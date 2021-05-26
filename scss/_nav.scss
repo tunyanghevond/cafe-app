@@ -1,0 +1,22 @@
+.main-menu {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65px;
+    text-transform: uppercase;
+  }
+  li {
+    padding: 11px 65px;
+    list-style: none;
+  }
+  li:hover {
+    cursor: pointer;
+    background-color: rgb(168, 168, 168);
+    color: rgb(31, 31, 31);
+  }
+}

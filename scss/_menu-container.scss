@@ -1,0 +1,54 @@
+.menu-container {
+  h4 {
+    text-align: center;
+    padding: 45px 0;
+    span {
+      font-size: 25px;
+      padding: 1px 17px;
+      background: black;
+      color: white;
+      letter-spacing: 6px;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 13px 10px;
+    background: rgb(248, 245, 245);
+    margin: 15px 0;
+    color: black;
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0);
+    li {
+      font-size: 20px;
+      padding: 8px 0px;
+      list-style: none;
+      text-align: center;
+      letter-spacing: 4px;
+      width: 47%;
+    }
+    li:nth-child(1) {
+      background: rgb(173, 173, 173);
+      color: white;
+    }
+  }
+  .menu-info {
+    box-shadow: 0px -3px 5px 0 black;
+    padding: 10px 32px;
+    font-size: 20px;
+    background: rgb(248, 245, 245);
+    h5 {
+      font-weight: 800;
+      margin: 15px 0;
+    }
+    p {
+      line-height: 1.5;
+      margin-bottom: 60px;
+      font-family: "Inconsolata", sans-serif;
+    }
+  }
+  .photo {
+    padding: 20px 0;
+    width: 100%;
+  }
+}

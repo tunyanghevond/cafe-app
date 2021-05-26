@@ -1,0 +1,13 @@
+@import "nav";
+@import "header";
+@import "cafe-info";
+@import "menu-container";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
